@@ -55,7 +55,7 @@ public class Stack implements IStack{
 
     @Override
     public int size() {
-        return this._stack.length;
+        return this._count;
     }
     
 }

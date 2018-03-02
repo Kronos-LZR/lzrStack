@@ -21,7 +21,7 @@ public class LzrStack {
         
         s1.push(inputChar.next().charAt(0));
         
-        System.out.println(s1.peek());
+        System.out.println(s1.peek() + "" + s1.size());
         
     }
     
